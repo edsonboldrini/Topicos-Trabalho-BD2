@@ -21,13 +21,18 @@ Trabalho desenvolvido durante a disciplina de BD
 #Sumário
 
 ###1	COMPONENTES<br>
-Integrantes do grupo<br>
+Edson Simões Boldrini<br>
+Pedro Henrique Costa<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados "Controle de acesso por RFID" que tem como motivação oferecer uma maior segurança aos alunos do IFES Campus Serra.<br>
       
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+O IFES (Instituto Federal do Espírito Santo) campus Serra está inserindo alunos do ensino médio em suas dependências disponibilizando cursos técnicos integrados ao ensino médio para adolescentes interessados em aprenderem algo a mais do que o ensino médio normal.<br>
+Esses adolescentes são, em boa parte, menores de idade, e/ou ainda moram e/ou tem alguma dependência com seus respectivos pais ou responsáveis. Com isso, deseja-se construir um sistema para controle de entrada e saída dos alunos do ensino médio do ifes campus serra.<br> 
+No portão de entrada principal será instalado um leitor de RFID e todo acesso de entrada e saída ficará registado em um log. O controle de acesso de cada aluno seria baseado no horário da sua turma, cada turma possui seus horários de entradas e saídas da parte da manhã e tarde, conforme os horários dos alunos pode não haver registro de logs de entrada ou saída.<br>
+Os alunos têm responsáveis, e, como base de um sistema automático, será disponibilizado aos responsáveis todos os logs de acesso para que, eles possam fazer o acompanhamento do acesso do aluno a instituição.<br>
+A situação do aluno no log poderia indicar, se o aluno está na instituição ou não, se ele tem faltado muitas aulas e até mesmo se o aluno se encontra em educação física ou visita técnica.<br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
@@ -36,10 +41,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
 
-
 ###5	MODELO CONCEITUAL<br>
 ####5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/edsonsb96/Topicos-Trabalho-BD2/blob/master/modelo_conceitual.jpg "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
 
@@ -59,7 +63,11 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 ###6	MODELO LÓGICO<br>
+![Alt text](https://github.com/edsonsb96/Topicos-Trabalho-BD2/blob/master/modelo_logico.jpg "Modelo Lógico")
+
 ###7	MODELO FÍSICO<br>
+https://github.com/edsonsb96/Topicos-Trabalho-BD2/blob/master/modelo_fisico.sql
+
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
