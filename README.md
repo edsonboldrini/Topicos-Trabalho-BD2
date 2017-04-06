@@ -39,6 +39,9 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
+https://github.com/edsonsb96/template/blob/master/Modelo_Tela.pdf
+https://github.com/edsonsb96/template/blob/master/Cadastro%20RFID.pdf
+
 ![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
 
 ### 5	MODELO CONCEITUAL<br>
