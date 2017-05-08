@@ -37,10 +37,13 @@ A situação do aluno no log poderia indicar, se o aluno está na instituição 
 ### 4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 <!--
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
+-->
+<!--
 Sugestão: https://balsamiq.com/products/mockups/<br>
 -->
+<!--
 ![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
+-->
 
 https://github.com/edsonsb96/template/blob/master/Modelo_Tela.pdf
 https://github.com/edsonsb96/template/blob/master/Cadastro%20RFID.pdf
@@ -51,7 +54,7 @@ https://github.com/edsonsb96/template/blob/master/Cadastro%20RFID.pdf
     
 #### 5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
 
-[!Alt text](https://github.com/edsonsb96/template/blob/master/Arquitetura_Sistema.png)
+[!Alt text](https://github.com/edsonsb96/template/blob/master/Arquitetura_Sistema.png?raw=true "Arquitetura de Software")
 
 #### 5.3 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
