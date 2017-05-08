@@ -51,7 +51,7 @@ https://github.com/edsonsb96/template/blob/master/Cadastro%20RFID.pdf
     
 #### 5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
 
-https://github.com/edsonsb96/template/blob/master/Arquitetura_Sistema.png
+[!Alt text](https://github.com/edsonsb96/template/blob/master/Arquitetura_Sistema.png)
 
 #### 5.3 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
